@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url("images/17.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.container {
+    display: flex;
+    gap: 35px;
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0.5); /* Warna abu-abu dengan 50% transparansi */
+    
+}
+
+.text1 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.805);
+}
+
+.text1 h3 {
+    font-size: 30px;
+}
+
+.plant-card {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.plant-card img {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.tanda {
+    background-color: rgba(0, 0, 0, 0.789);
+    color: white;
+    text-align: center;
+    height: 70px;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+.featured-plants {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url("images/1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.plant-card1 {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+    margin-left: 840px;
+}
+
+.text2 {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.805);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer1 {
+    background-color: #333; 
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    color: #00d48aea; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+   margin-top: 20px;
+    border-top: 1px solid #555; /* Abumuda */
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    gap: 10px;
+    margin-left: 85px;
+}

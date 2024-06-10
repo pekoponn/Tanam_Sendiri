@@ -1,0 +1,55 @@
+/* Reset style */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background-color: #333; /* Warna header */
+    padding: 20px;
+    color: #fff; /* Warna teks header */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #d1f2eb; /* Warna latar konten */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
